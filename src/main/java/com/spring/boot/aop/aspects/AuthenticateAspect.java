@@ -21,6 +21,8 @@ public class AuthenticateAspect {
 
             proceedingJoinPoint.proceed();
             System.out.println("User having correct credentials!!!!");
+            System.out.println("Checking the only file to upload to github....");
+
         }
         else{
 
