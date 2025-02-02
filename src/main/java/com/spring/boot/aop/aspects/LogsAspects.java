@@ -13,7 +13,7 @@ public class LogsAspects {
     //advicess: actual code
     public  void maintainLogs(){
 
-        System.out.println("MaintainedLog Executed!!....");
+        System.out.println("Maintained Log Executed!!....");
     }
 
     @After("execution(* com.spring.boot.aop.services.LoginService.doLogin()))")
